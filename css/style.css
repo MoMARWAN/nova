@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&family=Red+Hat+Display:wght@500&display=swap');
+
+
+:root {
+    --purple: #28134C;
+   
+  }
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #432773;
+
+}
+h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #0A093D;
+}
+header{
+    background: linear-gradient(311.76deg, #E6BFFE -15.24%, #FFFFFF 78.85%);
+    width: 100%;
+    height: 46.625rem;
+}
+.nav-heder{
+    padding-top: 1.313rem;
+    margin-right:7.5rem ;
+    margin-left:  7.5rem;
+}
+
+.search{
+    width: 6.563rem;
+    height: 1.625rem;
+    
+    border: none;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.LoginButton{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    background: #432773;
+    box-shadow: 0px 7px 22px -6px #7145BC;
+    border-radius: 14px;
+    width: 7.688rem;
+    height: 3.125rem;
+    width: 10.125rem;
+    
+}
+.AboutButton{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #432773;
+    box-shadow: 0px 7px 22px -6px #7145BC;
+    border-radius: 14px solid #7145BC;
+    width: 7.688rem;
+    height: 3.125rem;
+    width: 10.125rem;
+    
+}
+.text{
+    display: flex;
+    
+}
+.Nova-community{
+
+    width: 11.063rem;
+    height: 2.25rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #432773;
+    background: #432773;
+    opacity: 0.1;
+    border-radius: 8px;
+
+}
+.community{
+    margin-top: 7.875rem;
+    margin-left: 8.438rem;
+}
+.community h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+   max-width: 32.188rem;
+    color: #0A093D;
+    
+    
+}
+.community p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: start;
+
+max-width: 30.688rem;
+color: #656464;
+}
+
+.ValuableTeam{
+    margin-top: 9.063rem;
+    
+}
+.bleTeam :nth-child(1){
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #432773;
+
+  
+}
+.bleTeam :nth-child(2){
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+   margin-bottom: 1rem;
+    
+    text-align: center;
+    
+    color: #0A093D;
+
+}
+.bleTeam :nth-child(3) {
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+max-width: 28.375rem;
+margin: auto;
+text-align: center;
+margin-bottom: 9.063rem;
+color: #656464;
+}
+
+.ValuableTeam h2{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+text-align: center;
+color: #0A093D;
+}
+.Team{
+    width: 73.063rem;
+    margin: auto;
+    margin-bottom: 9.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Team .card{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+}
+.Active{
+    width: 8.875rem;
+    height: 8.875rem;
+    margin: auto;
+    margin-top: 2.625rem;
+
+}
+
+.Members {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;   
+    text-align: center;
+    color: #2F2C4A;
+    margin: auto;
+    margin-bottom: 1.875rem;
+    
+}
+
+.WeProvide{
+    
+    margin: auto;
+    background: linear-gradient(0deg, rgba(253, 241, 253, 0) 1.63%, #FBF1FD 20.5%, #F8F4FF 58.57%, #FFFFFF 100%);
+
+}
+.Provide{
+    width:68rem;
+    margin: auto;
+}
+.Resources{
+    margin-top: 4rem;
+    display: flex;
+ background:  #FFFFFF;
+    width: 32.625rem;
+    height: 11.375rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   
+}
+.Resources .card-body{
+    margin-top: 2.75rem;
+}
+.Resources h5 {
+   
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 26px;
+color: #2F2C4A;
+
+}
+.We :nth-child(1){
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    text-align: center;
+    
+    color: #432773;
+}
+.We :nth-child(2){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+    
+    text-align: center;
+    
+    color: #0A093D;
+}
+.We :nth-child(3){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    text-align: center;
+    
+    color: #656464;
+}
+.Resources p {
+    margin-top: 0.875rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+   text-align: start;
+    
+    
+    color: #656464;
+    
+
+}
+.OURPARTNERS{
+    margin-top: 4.563rem;
+}
+.PARTNERS h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #0A093D;
+}
+.real{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+
+color: #656464;
+max-width: 26.313rem;
+margin: auto;
+}
+.Practice{
+    display: flex;
+    justify-content: space-between;
+    width: 80.375rem; 
+    margin: auto;
+    margin-top: 4.875rem; 
+}
+.HowWorks{
+    margin-top: 7rem;
+}
+.Practicing{
+    width:  73.125rem;
+    margin: auto;
+    justify-content: space-between;
+}
+.Practicing .card-text{
+    margin-top: 1.125rem;
+    padding-left: 1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    
+    color: #656464;
+}
+.Practicing .card{
+    border-radius: 1rem;
+}
+.Practicing .card:hover{
+    box-shadow: 5px 10px 18px var(--purple);
+}
+.Practicing .card-title {
+    display: flex;
+    
+}
+.Practicing .card-body {
+    padding-top: 1.25rem;
+}
+.card-title span{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 2.5rem;
+    height: 0px;
+    border: 2px solid #FFAF2E;
+    background-color: #FFAF2E;
+    
+}
+.GetOurAplication{
+    box-sizing: border-box;
+    margin-top: 8.438rem;
+    margin-bottom: 8.75rem;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Aplication {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+    max-width: 21.313rem;
+    text-align: start;
+}
+.GetOur{
+    margin: auto;
+}
+.GetOur h2{
+  max-width: 21.313rem;  
+  text-align: start;
+}
+.Help-us {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+text-align: start;
+color: #7A7C7F;
+max-width: 21.313rem;
+}
+.customers{
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+    margin: auto;
+    margin-top: 3.125rem;
+    margin-bottom: 44.5rem;
+}
+.mers{
+   margin-top: 8rem;
+   
+}
+
+.mers p {
+    max-width: 29.813rem;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    color: #6D6D6D;
+    text-align: start;
+    
+    }
+
+.HappyClients{
+    margin-top: 11.25rem;
+}
+footer{
+    width: 100%;
+    height: 43.645rem;
+   
+    background: #28134C;
+
+}
+footer h1{
+    padding-top: 7.5rem;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+}
+footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 41.188rem;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.button-footer button {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+
+color: #000000;
+    border-radius: 1.25rem;
+    width: 6.813rem;
+    background: #F7F9FB;
+   
+   
+}
+.button-footer{
+    
+     width: 15.125rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+footer hr {
+    width: 67.125rem;
+    height: 0.2rem;
+    margin: auto;
+    background: #FFFFFF;
+    opacity: 0.25;
+    margin-top: 7.375rem;
+    margin-bottom: 2.688rem;
+}
+.GSG{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+.social-midy{
+    margin-top: 3.625rem;
+    width: 9.063rem;
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 8.125rem;
+    margin-right: 11.438rem;
+} 
+.social{
+    
+    width: 2.5rem;
+    height: 2.813rem;
+    opacity: 0.25;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 1.219rem;
+    
+}
+.social a img {
+     color: white;
+}
+
+/* // sign up stayl */
+.Signupform{
+    width: 15.5rem;
+}
+
+.Already{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+}
+.Already a {
+
+    color: #367CFF;
+}
+
+.Welcome{
+    width: 31.25rem;
+    height: 37.063rem;
+}
+.Welcome p{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+max-width: 25.25rem;
+
+color: #1D1D35;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // sign up stayl */

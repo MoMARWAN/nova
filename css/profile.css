@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&family=Red+Hat+Display:wght@500&display=swap');
+
+
+
+.UsernameTable{
+    width: 70.25rem;
+    margin: auto;
+    margin-top: 4.25rem;
+}
+.FormCv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.313rem;
+    margin-bottom: 3.5rem;
+}
+.FormCv button{
+    
+    width: 10.835rem; ;
+    height: 2.5rem;
+    margin-top: 1.7rem;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 22px;
+/* identical to box height, or 92% */
+
+text-align: center;
+
+}
+.FormCv label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+   text-align: right;
+    
+    
+    
+    color: rgba(0, 0, 0, 0.85);
+    
+
+}
+.FormCv input{
+    width: 48.781rem;
+    
+
+}
+.custom-file-input {
+    color: transparent;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .button-gr :nth-child(1){
+   
+    box-sizing: border-box;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1px 8px;
+    gap: 10px;
+    
+    width: 2.938rem;
+    height: 1.375rem;
+    
+    /* Polar Green / 1 */
+    
+    background: #F6FFED;
+    /* Polar Green / 3 */
+    
+    border: 1px solid #B7EB8F;
+    border-radius: 2px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #52C41A;
+    
+  }
+  .button-gr :nth-child(2){
+    
+box-sizing: border-box;
+
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 1px 8px;
+gap: 10px;
+
+width: 4.063rem;
+height: 1.375rem;
+
+/* Geek Blue / 1 */
+
+background: #F0F5FF;
+/* Geek Blue / 3 */
+
+border: 1px solid #ADC6FF;
+border-radius: 2px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+
+color: #2F54EB;
+  }
+  .button-gr :nth-child(3){
+    box-sizing: border-box;
+
+    flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 1px 8px;
+gap: 10px;
+
+width: 2.125rem;
+height: 1.375rem;
+
+/* Dust Red / 1
+
+Dust Red（薄暮）FFF1F0
+*/
+background: #FFF1F0;
+
+
+border: 1px solid #FFA39E;
+border-radius: 2px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #F5222D;
+  }
+  .table-light th{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 22px;
+color: rgba(0, 0, 0, 0.85);
+
+  }
+  .data1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1890FF;
+
+  }
+td{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: rgba(0, 0, 0, 0.85);
+}
+.nav-tabs .nav-link{
+    text-decoration-line: underline;
+}
+.Formintreviewer textarea{
+  width: 55.08rem;
+  height: 7.681rem;
+  margin-top: 2.625rem;
+  margin-bottom: 6.25rem;
+}
+.Formintreviewer .intreviewert1 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+
+color: rgba(0, 0, 0, 0.85);
+}
+.Formintreviewer .intreviewert2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #979797;
+}
+.Formintreviewer  {
+  background: rgba(196, 196, 196, 0.04);
+  border: 1px solid #E5E5E5;
+}
