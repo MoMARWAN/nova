@@ -172,6 +172,7 @@ color: rgba(0, 0, 0, 0.85);
 .Formintreviewer textarea{
   width: 55.08rem;
   height: 7.681rem;
+  margin-right: 1.5rem ;
   margin-top: 2.625rem;
   margin-bottom: 6.25rem;
 }
@@ -197,4 +198,28 @@ color: rgba(0, 0, 0, 0.85);
 .Formintreviewer  {
   background: rgba(196, 196, 196, 0.04);
   border: 1px solid #E5E5E5;
+  padding-bottom: 11.125rem;
+}
+.checkForm{
+  width: 33.063rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Save-update{
+  margin-top: 4.75rem;
+  width: 10.835rem;
+  height: 2.5rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.BioForm{
+  width: 72.063rem;
+  height: 42rem;
+  background: rgba(196, 196, 196, 0.04);
+border: 1px solid #E5E5E5;
 }
