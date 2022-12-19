@@ -8,6 +8,7 @@
     width: 70.25rem;
     margin: auto;
     margin-top: 4.25rem;
+    margin-bottom: 8.125rem;
 }
 .FormCv{
     display: flex;
@@ -21,13 +22,11 @@
     height: 2.5rem;
     margin-top: 1.7rem;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 22px;
-/* identical to box height, or 92% */
-
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
 
 }
 .FormCv label{
@@ -221,5 +220,7 @@ color: rgba(0, 0, 0, 0.85);
   width: 72.063rem;
   height: 42rem;
   background: rgba(196, 196, 196, 0.04);
-border: 1px solid #E5E5E5;
+  border: 1px solid #E5E5E5;
 }
+
+
