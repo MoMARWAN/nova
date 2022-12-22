@@ -11,6 +11,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div ">
+          <div></div>
             <ul class="navbar-nav justify-content-end  mb-lg-0">
               <li class="nav-item">
                 <a  class="nav-link" href="#" style="color: #432773;">About</a>
