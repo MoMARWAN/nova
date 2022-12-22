@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="landing.html">
+
+<?php
+
+session_start();
+include 'init/config.php';
+$error_email    = "";
+$error_password = "";
+$error_login    = "";
+if(isset($_POST['login']))
+{
+    $email    = $_POST['email'];
+    $password = $_POST['password'];
+
+    if($email == "")
+    {
+        $error_email = "يجب ادخال البريد الالكتروني";
+    }
+    else if($password == "")
+    {
+        $error_password = "يجب ادخال كلمة المرور";
+    }
+    else
+    {
+        $sql = "SELECT * FROM users_tb WHERE email = '".$email."'";
+        $result = mysqli_query($conn,$sql);
+        if(mysqli_num_rows($result) > 0)
+        {
+            $row = mysqli_fetch_assoc($result);
+            if ($row['password'] == $password)
+            {
+                $_SESSION['id'] = $row['id'];
+                $_SESSION['full_name'] = $row['full_name'];
+                $_SESSION['email'] = $row['email'];
+                header('location:index.php');
+            }
+            else
+            {
+                $error_login    = "البريد الالكتروني او كلمة المرور خاطئة";
+            }
+        }
+        else
+        {
+            $error_login    = "البريد الالكتروني او كلمة المرور خاطئة";
+        }
+
+    }
+
+}
+
+
+ include 'layouts/profile.header.php'?>
   </head>
 <body>
- 
+  
 
  
 <!-- /* login */ -->

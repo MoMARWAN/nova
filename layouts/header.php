@@ -38,8 +38,7 @@
           
             <div class="form-group has-search search">
               <span class="fa fa-search form-control-feedback"></span>
-              <input type="text" class="form-control" placeholder="Search Hare...">
-            <hr>
+              <input  type="text" class="form-control "  placeholder="Search Hare...">
             </div>
 
           </div>
@@ -49,7 +48,7 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="height: 31.063rem;">
           <div class="modal-dialog">
             <div class="modal-content">
-              <form>
+              <form method="post" action="layouts/header.php">
                 <img style="   
                  display: block;
                 margin-left: auto;
@@ -60,7 +59,7 @@
                     <label  class="col-form-label">Full Name</label>
                   </div>
                   <div class="col-auto">
-                    <input type="text"  class="form-control" aria-describedby="passwordHelpInline">
+                    <input type="text"  class="form-control  <?php echo ($error_full_name != '') ? 'is-invalid' : ''; ?>" aria-describedby="passwordHelpInline">
                   </div>
                   </div>
               
@@ -69,13 +68,13 @@
                     <label  class="col-form-label">Email</label>
                   </div>
                   <div class="col-auto">
-                    <input type="email"  class="form-control" aria-describedby="passwordHelpInline">
+                    <input type="email"  class="form-control <?php echo ($error_email != '') ? 'is-invalid' : ''; ?>" aria-describedby="passwordHelpInline">
                   </div>
                   </div>
               
                 <div class="udform row g-3 align-items-center">
                   <div class="col-auto">
-                    <label  class="col-form-label">Password</label>
+                    <label  class="col-form-label <?php echo ($error_password != '') ? 'is-invalid' : ''; ?>">Password</label>
                   </div>
                   <div class="col-auto">
                     <input type="password"  class="form-control" aria-describedby="passwordHelpInline">

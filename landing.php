@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-       <?php include 'layouts/header.php'?>
-  </head>
-<body>
-  
+<?php include 'layouts/header.php'?>
+
+
     <section class="ValuableTeam">
         <div class="bleTeam">
             <p>Valuable Team</p>
