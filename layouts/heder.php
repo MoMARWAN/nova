@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/user.css">
-    <link rel="stylesheet" href="css/profile.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="sign up.html">
-  </head>
+<?php include 'layouts/head.php'?>
+
 <body>
 <header>
     <nav class="navbar navbar-expand-lg nav-heder">
@@ -26,7 +14,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="user.php">Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Chanllenges</a>
@@ -44,11 +32,11 @@
           </div>
         </div>
 
-        <button type="button"  class="btn LoginButton" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@login">Log in</button>
+       <div> <button type="button"  class="btn LoginButton" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@login">Log in</button></div>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="height: 31.063rem;">
           <div class="modal-dialog">
             <div class="modal-content">
-              <form method="post" action="layouts/header.php">
+              <form method="post" action="">
                 <img style="   
                  display: block;
                 margin-left: auto;
@@ -74,7 +62,7 @@
               
                 <div class="udform row g-3 align-items-center">
                   <div class="col-auto">
-                    <label  class="col-form-label <?php echo ($error_password != '') ? 'is-invalid' : ''; ?>">Password</label>
+                    <label  class="col-form-label ">Password</label>
                   </div>
                   <div class="col-auto">
                     <input type="password"  class="form-control" aria-describedby="passwordHelpInline">
@@ -99,19 +87,12 @@
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-
       </nav>
+      <hr>
       <div class="text">
        
         <div class="community">
-            <button type="button" class="Nova-community">Nova community</button>
+            <button type="button" class="but Nova-community">Nova community</button>
             <h1>Improve your Interview Experience!</h1>
             <p>More than 2 billion people in over countries use Nova to practice with professional interviewer.</p>
             <button type="button" class="btn LoginButton">Start Practicing</button>

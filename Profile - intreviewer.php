@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+
   <!DOCTYPE html>
   <html lang="en">
-  <head>
-         <?php include 'layouts/profile.header.php'?>
-    </head>
+  <?php include 'layouts/head.php'?>
 <body>
-  
+<?php include 'layouts/profile.header.php'?>
     <nav class="navbar navbar-expand-lg nav-heder">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="img/logo-nova.png" alt=""></a>

@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-       <?php include 'layouts/header.php'?>
-  </head>
+<?php include 'layouts/head.php'?>
 <body>
-
+<?php include 'layouts/heder.php'?>
   
     <section class="TopChallenges" >
         <h2>Top Challenges</h2>

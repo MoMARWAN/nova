@@ -1,61 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-<?php
-
-session_start();
-include 'init/config.php';
-$error_email    = "";
-$error_password = "";
-$error_login    = "";
-if(isset($_POST['login']))
-{
-    $email    = $_POST['email'];
-    $password = $_POST['password'];
-
-    if($email == "")
-    {
-        $error_email = "يجب ادخال البريد الالكتروني";
-    }
-    else if($password == "")
-    {
-        $error_password = "يجب ادخال كلمة المرور";
-    }
-    else
-    {
-        $sql = "SELECT * FROM users_tb WHERE email = '".$email."'";
-        $result = mysqli_query($conn,$sql);
-        if(mysqli_num_rows($result) > 0)
-        {
-            $row = mysqli_fetch_assoc($result);
-            if ($row['password'] == $password)
-            {
-                $_SESSION['id'] = $row['id'];
-                $_SESSION['full_name'] = $row['full_name'];
-                $_SESSION['email'] = $row['email'];
-                header('location:index.php');
-            }
-            else
-            {
-                $error_login    = "البريد الالكتروني او كلمة المرور خاطئة";
-            }
-        }
-        else
-        {
-            $error_login    = "البريد الالكتروني او كلمة المرور خاطئة";
-        }
-
-    }
-
-}
 
 
- include 'layouts/profile.header.php'?>
-  </head>
+
+ <?php  include 'layouts/head.php'?>
+
+ 
+ 
 <body>
   
-
+<?php  include 'layouts/profile.header.php'?>
  
 <!-- /* login */ -->
 <form>

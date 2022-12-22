@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@600&family=Press+Start+2P&family=Red+Hat+Display:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code&family=Inter:wght@500;600&family=Press+Start+2P&family=Red+Hat+Display:wght@500&display=swap');
 
 :root {
     --purple: #28134C;
    
   }
+  button:hover{
+    box-shadow: 5px 10px 18px var(--purple);
+}
 p{
     font-family: 'Inter';
     font-style: normal;
@@ -35,20 +38,23 @@ header{
     height: 46.625rem;
 }
 .nav-heder{
+    width: 75rem;
+
+    justify-content: space-between;
     padding-top: 1.313rem;
-    margin-right:7.5rem ;
-    margin-left:  7.5rem;
+    margin: auto;
 }
 
 .search{
     width: 9.5rem;
     height: 2rem;
     border: none;
-    background:none;
+    background:transparent;
     
 }
 .has-search .form-control {
     padding-left: 2.375rem;
+    
 }
 
 .has-search .form-control-feedback {
@@ -99,7 +105,21 @@ header{
    
     
 }
+.Abstrack{
+  margin-top: 2rem;  
+  width: 11rem;  
+  height: 11rem; 
+  margin-left: auto;
+  margin-right: auto;
+  
 
+}
+.v1{
+    margin-top: 2rem; 
+    position: absolute;
+    top: 0.625rem;
+    left: 4.063rem;
+}
 .InForm{
     width: 23.938rem;
     margin: auto;
@@ -124,6 +144,7 @@ header{
 }
 .text{
     display: flex;
+    justify-content: space-around;
     
 }
 .Nova-community{
@@ -134,10 +155,10 @@ header{
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 12px;
+    
     text-align: center;
-    background: #432773;
-    opacity: 0.1;
+    background: #4327731e;
+    border: none;
     border-radius: 8px;
 
     
@@ -256,6 +277,16 @@ color: #0A093D;
     margin-bottom: 1.875rem;
     
 }
+.Members .card-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+color: #656464;
+
+}
 
 .WeProvide{
     
@@ -266,6 +297,7 @@ color: #0A093D;
 .Provide{
     width:68rem;
     margin: auto;
+    margin-bottom: 18.438rem;
 }
 .Resources{
     margin-top: 4rem;
@@ -490,7 +522,14 @@ footer{
     background: #28134C;
 
 }
-footer h1{
+.footer1{
+    width: 67.125rem;
+    height: 28.142rem;
+    margin: auto;
+    background: #28134C;
+
+}
+.footer1 h1{
     padding-top: 7.5rem;
     font-family: 'Roboto';
 font-style: normal;
@@ -500,7 +539,7 @@ line-height: 56px;
 text-align: center;
 color: #FFFFFF;
 }
-footer p {
+.footer1 p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -534,7 +573,7 @@ color: #000000;
     margin: auto;
     margin-top: 3rem;
 }
-footer hr {
+.footer1 hr {
     width: 67.125rem;
     height: 0.2rem;
     margin: auto;
@@ -563,8 +602,10 @@ color: #FFFFFF;
     width: 9.063rem;
     display: flex;
     justify-content: space-between;
-   margin-bottom: 8.125rem;
-    margin-right: 11.438rem;
+    margin-bottom: 8.125rem;
+    margin-left: auto;
+   
+   
 } 
 .social{
     
@@ -575,8 +616,17 @@ color: #FFFFFF;
     border-radius: 1.219rem;
     
 }
-.social a img {
-     color: white;
+.social a  {
+    position: relative;
+    top: 0.625rem;
+    right: 0.625rem;
+     color:  #FFFFFF;
+     text-align: center;
+     margin: auto;
+}
+.social a i  {
+    
+     color:  #FFFFFF;
 }
 
 /* // sign up stayl */
