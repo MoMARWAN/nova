@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  
     <nav class="navbar navbar-expand-lg nav-heder">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="img/logo-nova.png" alt=""></a>
@@ -45,14 +46,13 @@
          
         </div>
       </nav>
-  
 
-    <div class="card mb-3 PracticeIntreview">
+      <div class="card mb-3 PracticeIntreview">
         <div  class="card-top Practicee">
             <img src="img/user2.png" alt="">
             <div>
             <h1>James Ronald</h1>
-            <button type="button" class="btn btn-primary">Start a Practice Intreview</button>
+           <p>Specializtion name</p>
         </div>
         </div>
         <div class="card-body">
@@ -60,40 +60,11 @@
           <p class="card-text">Hello. My name is James working as UI/UX designer. The user interactive UI design will help you and your website or app to convert the visitor to real customers and that will help you to make great revenue for your business...</p>
         </div>
       </div>
-    
-      <section class="cominginterview">
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">coming interview</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">setting</a>
-            </li>
-           
-          </ul>
-          <img src="img/Stuck at Home Happy Place.png" alt="">
-          <p>No coming interview yet</p>
-        </section>
-  
-      <footer>
-        <h1> Scorecard. Resources. Feedback.</h1>
-        <p>We understand how important it is for you to find a good job and settle down. We will help you to find one by preparing you to change your job interview to a permanent career success story.</p>
-      <div class="button-footer" >
-        <button type="button" class="btn ">👀  Insights</button>
-        <button type="button" class="btn ">👋  Contact</button>
-      </div>
-  <hr>
-  <p class="GSG">© 2022 GSG. All Rights Reserved. </p>
-  <div class="social-midy" dir="rtl">
-  <div class="social"><a href="#"><img src="img/icon/fesebook.svg" alt=""></a></div>
-  <div class="social"><a href="#"><img src="img/icon/linkend.svg" alt=""></a></div>
-  <div class="social"><a href="#"><img src="img/icon/Twitter.svg" alt=""></a></div>
-  </div>
-  
-      </footer>
-    
-</body>
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+      </body>
 </html>

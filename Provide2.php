@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/user.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+       <?php include 'layouts/profile.header.php'?>
+  </head>
 <body>
+  
+  
   
     <nav class="navbar navbar-expand-lg nav-heder">
         <div class="container-fluid">
@@ -45,20 +40,44 @@
          
         </div>
       </nav>
+  
 
-      <section class="PagenotFound">
-        <img src="img/not found.png" alt="">
-        <div>
-            <h1>Page not Found</h1>
-            <p>We've searched more than 350 product We did not find any product for your search</p>
-            <button  href="./landing.php" class="LoginButton bth">back to home</button>
+    <div class="card mb-3 PracticeIntreview">
+        <div  class="card-top Practicee">
+            <img src="img/user2.png" alt="">
+            <div>
+            <h1>James Ronald</h1>
+            <button type="button" class="btn btn-primary">Start a Practice Intreview</button>
         </div>
+        
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">About me</h5>
+          <p class="card-text">Hello. My name is James working as UI/UX designer. The user interactive UI design will help you and your website or app to convert the visitor to real customers and that will help you to make great revenue for your business...</p>
+        </div>
+      </div>
+      <section class="cominginterview">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">coming interview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">setting</a>
+            </li>
+           
+          </ul>
+          <img src="img/Stuck at Home Happy Place.png" alt="">
+          <p>No coming interview yet</p>
+        </section>
+ 
+  
+        <?php include 'layouts/footer.php' ?>
 
-      </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-
-
-
-
-    </body>
-    </html>
+    
+</body>
+</html>

@@ -126,7 +126,7 @@ header{
     
 }
 .Nova-community{
-
+    color: #432773;
     width: 11.063rem;
     height: 2.25rem;
     font-family: 'Inter';
@@ -135,11 +135,11 @@ header{
     font-size: 12px;
     line-height: 12px;
     text-align: center;
-    color: #432773;
     background: #432773;
     opacity: 0.1;
     border-radius: 8px;
 
+    
 }
 .community{
     margin-top: 7.875rem;

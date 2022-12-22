@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/user.css">
-    <link rel="stylesheet" href="css/profile.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+       <?php include 'layouts/profile.header.php'?>
+  </head>
 <body>
+  
+  
   
     <nav class="navbar navbar-expand-lg nav-heder">
         <div class="container-fluid">
@@ -59,86 +53,8 @@
           <p class="card-text">Hello. My name is James working as UI/UX designer. The user interactive UI design will help you and your website or app to convert the visitor to real customers and that will help you to make great revenue for your business...</p>
         </div>
       </div>
-      <section class="cominginterview">
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">coming interview</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">setting</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">history interviews</a>
-            </li>    
-          </ul>
-         
-
-          <table class="table caption-top">
-            <thead>
-              <tr>
-                <th scope="col">Su</th>
-                <th scope="col">Mo</th>
-                <th scope="col">tu</th>
-                <th scope="col">we</th>
-                <th scope="col">th</th>
-                <th scope="col">fr</th>
-                <th scope="col">sa</th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td>11</td>
-                    <td class="today">12</td>
-                    <td>13</td>
-                    <td>14</td>
-                  </tr>
-                  <tr>
-                    <td>15</td>
-                    <td>16</td>
-                    <td>17</td>
-                    <td>18</td>
-                    <td>19</td>
-                    <td>20</td>
-                    <td>21</td>
-                  </tr>
-                   <tr>
-                    <td>22</td>
-                    <td>23</td>
-                    <td>24</td>
-                    <td>25</td>
-                    <td>26</td>
-                    <td>27</td>
-                    <td>28</td>
-                  </tr>
-                    <tr>
-                    <td>29</td>
-                    <td>30</td>
-                    <td>31</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-            </tbody>
-          </table>
-
-        </section>
-          <section>
+     
+          <section class="UsernameTable">
     <ul class="nav nav-tabs">
         <li class="nav-item">
           <a class="nav-link " aria-current="page" href="#">coming interview</a>
@@ -169,24 +85,24 @@
                 <td>text</td>
                 <td>text</td>
                 <td>  <div class="button-gr">
-                    <button type="button" class="btn btn-outline-success">easy</button>
-                    <button type="button" class="btn btn-outline-primary">less-hard</button>
-                    <button type="button" class="btn btn-outline-danger">hard</button>
+                    <button type="button" class="btn btn-outline-success">green</button>
+                    <button type="button" class="btn btn-outline-primary">geekblue</button>
+                    <button type="button" class="btn btn-outline-danger">red</button>
 
                 </div> </td>
-                <td>12 Nov 2020</td>
+                <td class="data1">12 Nov 2020</td>
               </tr>
               <tr>  
                 <td>text</td>
                 <td>text</td>
                 <td>text</td>
                 <td>  <div class="button-gr">
-                    <button type="button" class="btn btn-outline-success">easy</button>
-                    <button type="button" class="btn btn-outline-primary">less-hard</button>
-                    <button type="button" class="btn btn-outline-danger">hard</button>
+                    <button type="button" class="btn btn-outline-success">green</button>
+                    <button type="button" class="btn btn-outline-primary">geekblue</button>
+                    <button type="button" class="btn btn-outline-danger">red</button>
 
                 </div> </td>
-                <td>12 Nov 2020</td>
+                <td class="data1">12 Nov 2020</td>
               </tr>
            
      
@@ -195,7 +111,8 @@
           </table>
        
         </section>
-         <section>
+
+         <section class="UsernameTable">
     <ul class="nav nav-tabs">
         <li class="nav-item">
           <a class="nav-link " aria-current="page" href="#">coming interview</a>
@@ -226,24 +143,24 @@
                 <td>text</td>
                 <td>text</td>
                 <td>  <div class="button-gr">
-                    <button type="button" class="btn btn-outline-success">easy</button>
-                    <button type="button" class="btn btn-outline-primary">less-hard</button>
-                    <button type="button" class="btn btn-outline-danger">hard</button>
+                    <button type="button" class="btn btn-outline-success">green</button>
+                    <button type="button" class="btn btn-outline-primary">geekblue</button>
+                    <button type="button" class="btn btn-outline-danger">red</button>
 
                 </div> </td>
-                <td>12 Nov 2020</td>
+                <td  class="data1">12 Nov 2020</td>
               </tr>
               <tr>  
                 <td>text</td>
                 <td>text</td>
                 <td>text</td>
                 <td>  <div class="button-gr">
-                    <button type="button" class="btn btn-outline-success">easy</button>
-                    <button type="button" class="btn btn-outline-primary">less-hard</button>
-                    <button type="button" class="btn btn-outline-danger">hard</button>
+                    <button type="button" class="btn btn-outline-success">green</button>
+                    <button type="button" class="btn btn-outline-primary">geekblue</button>
+                    <button type="button" class="btn btn-outline-danger">red</button>
 
                 </div> </td>
-                <td>12 Nov 2020</td>
+                <td  class="data1">12 Nov 2020</td>
               </tr>
            
      
@@ -252,7 +169,8 @@
           </table>
        
         </section>
-        <section>
+
+        <section class="UsernameTable">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
                   <a class="nav-link " aria-current="page" href="#">coming interview</a>
@@ -267,21 +185,19 @@
                   <a class="nav-link active" href="#">history interviews</a>
                 </li>    
               </ul>
-              <form>
+              <form class="FormCv">
+                <div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <label for="exampleInputEmail1" class="form-label">img link :</label>
+                  <input type="file" accept="image/*,.pdf" class="form-control custom-file-input" id="exampleInputimage1" name="CV" placeholder="please select" aria-describedby="imageHelp">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <label for="exampleInputCv1" accept="image/*,.pdf" class="form-label">CV link :</label>
+                  <input type="file" class="form-control custom-file-input" id="exampleInputCv1" placeholder="please select">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+             <div> <button type="submit" class="btn btn-primary">Save / update</button></div>
+
               </form>
              
         </section>
@@ -289,6 +205,9 @@
 
 
      
+        <?php include 'layouts/footer.php' ?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 
 
